@@ -1,0 +1,27 @@
+@import url('/src/shared/breakpoints.scss');
+
+.root {
+  /* width: 180px; */
+  /* height: 61px; */
+  text-decoration: none;
+  color: var(--bg-color);
+  display: flex;
+
+  background-size: cover;
+
+  /* TODO change */
+  font-size: 20px;
+  font-weight: 700;
+
+  /* @media (--xs-viewport) { */
+  /*   width: 24px; */
+  /*   height: 24px; */
+  /*   background: none; */
+  /* } */
+}
+
+/* .root::before { */
+/*   @media (--xs-viewport) { */
+/*     content: '⚛️'; */
+/*   } */
+/* } */

@@ -1,0 +1,36 @@
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: var(--font-size-l);
+
+  margin-bottom: 10px;
+}
+
+.description {
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 20px; */
+  font-size: var(--font-size-m);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: end;
+}
+
+.input {
+  width: 100%;
+}
+
+.button {
+  &Icon {
+    filter: invert(1);
+
+    div {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}

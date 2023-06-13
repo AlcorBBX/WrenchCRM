@@ -1,0 +1,39 @@
+:root {
+  /* --font-family-main: consolas, 'Times New Roman', serif; */
+  --font-family-main: 'Montserrat';
+  --font-size-m: 20px;
+  /* --font-size-m: 16px; */
+  --font-line-m: 24px;
+  --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+  --font-size-l: 26px;
+  /* --font-size-l: 24px; */
+  --font-line-l: 32px;
+  --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+  --font-size-xl: 32px;
+  --font-line-xl: 40px;
+  --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+
+  /*  sizes */
+
+  /* 20px/26px */
+
+  --navbar-height: 80px;
+  --header-paddings: 16px 32px 16px 32px;
+
+  --sidebar-width: 300px;
+  --sidebar-width-collapsed: 80px;
+
+  --layout-container-padding: 0px 32px 0px 32px;
+
+  /*  z-index */
+  --modal-z-index: 10;
+
+  /*  overlay-color */
+  --overlay-color: rgba(0 0 0 / 60%);
+  --red-light: #f00;
+  --red-dark: #ce0505;
+
+  --main-border-radius: 10px;
+
+  --button-padding: 19px 40px;
+}
